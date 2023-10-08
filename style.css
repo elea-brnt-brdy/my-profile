@@ -1,0 +1,92 @@
+ body {
+    background-color: #4343b7;
+    color: #070e43;
+    font-family:cambria;
+
+ }
+   
+ h1 {
+ 	color: #190f58;
+ 	font-family: cambria;
+ 	font-size: 35px;
+ }
+
+ h2 {
+ 	color: #190f58;
+ 	font-family: cambria;
+ 	text-transform: uppercase;
+ }
+
+ 
+ /* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 70px auto;
+
+}
+.card-white{
+  background-color: #6e6eead1;
+  border-radius: 25px;
+  margin: 20px 0px;
+  text-align: center;
+  padding: 15px 20px;
+}
+div{
+	box-shadow: 10px 10px 10px #233f87;
+
+}
+
+.btn-blue{
+  background-color:#4343b7;
+  color:#190f58;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+
+.container{
+  background-color: #6161e1;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+
+.list-horizontal{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-horizontal li{
+  display: inline;
+  padding: 10px;
+}
+
+.list-horizontal i{
+  font-size: 30px;
+  color: #190f58;
+}
+
+.list-horizontal i:hover{
+	font-size: 32px;
+    color: black;
+}
+img{
+ border-radius: 25px;
+}
+
+@media (max-width: 960px) {
+  .container {
+  	width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+  	width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+  	width: 300px;
+  }
+}
+
